@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #f067a1;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: #e7cad6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+}
+
+.perfil{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ff3d83;
+    font-size: 18px;
+}
+
+/* APRESENTAÇÃO */
+
+.apresentacao{
+    padding: 30px;
+}
+
+.apresentacao h1{
+    font-size: 60px;
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+}
+
+.apresentacao p{
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: white;
+    color: #ff3d83;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* AVATAR */
+
+.avatar-centro{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.avatar-centro img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* LINHA */
+
+hr{
+    width: 60%;
+    margin: 0 auto 30px;
+    border: 1px solid #ffc0cb;
+}
+
+/* PROJETOS */
+
+.projetos{
+    text-align: center;
+}
+
+.projetos h2{
+    font-size: 45px;
+    font-family: Georgia, serif;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.card{
+    background-color: #f3dce4;
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card h3{
+    color: #ff3d83;
+    margin-bottom: 10px;
+}
